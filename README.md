@@ -29,7 +29,7 @@ GL/osmesa.h: No such file or directory: ```sudo apt install libosmesa6-dev libgl
 Missing path to your environment variable LD_LIBRARY_PATH: you can simply use sudo referring to this [issue](https://github.com/openai/mujoco-py/issues/619). If you're using conda, you need to clarify environment variable manually in shell, or configure it in Run/Debug configuration in PyCharm.
 
 ## Thanks
-[sfujim](https://github.com/sfujim/BCQ)'s code for Batch-Constrained deep Q-Learning (BCQ)，and issues in [mujoco-py](https://github.com/openai/mujoco-py) .
+[sfujim](https://github.com/sfujim/BCQ)'s code for Batch-Constrained deep Q-Learning (BCQ)，issues of [mujoco-py](https://github.com/openai/mujoco-py) .
 
 ## Reference
 [1] Fujimoto S, Meger D, Precup D. Off-policy deep reinforcement learning without exploration[C]//International Conference on Machine Learning. PMLR, 2019: 2052-2062.
