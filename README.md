@@ -20,11 +20,11 @@ python3 test_data.py
 ```
 
 ## Other tips may help
-cannot find -lGL: [issue](https://github.com/openai/mujoco-py/issues/618)
+cannot find -lGL: [issue](https://github.com/openai/mujoco-py/issues/618).
 
-No such file or directory 'patchelf' on mujoco-py installation: ```sudo apt-get install patchelf``` according to this [issue](https://github.com/openai/mujoco-py/issues/652)
+No such file or directory 'patchelf' on mujoco-py installation: ```sudo apt-get install patchelf``` according to this [issue](https://github.com/openai/mujoco-py/issues/652).
 
-GL/osmesa.h: No such file or directory: ```sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3``` according to this [issue](https://github.com/ethz-asl/reinmav-gym/issues/35), also see the [Ubuntu installtion troubleshooting](https://github.com/openai/mujoco-py#troubleshooting)
+GL/osmesa.h: No such file or directory: ```sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3``` according to this [issue](https://github.com/ethz-asl/reinmav-gym/issues/35), also see the [Ubuntu installtion troubleshooting](https://github.com/openai/mujoco-py#troubleshooting).
 
 Missing path to your environment variable LD_LIBRARY_PATH: you can simply use sudo referring to this [issue](https://github.com/openai/mujoco-py/issues/619). If you're using conda, you need to clarify environment variable manually in shell, or configure it in Run/Debug configuration in PyCharm.
 
